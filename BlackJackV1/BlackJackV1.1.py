@@ -24,13 +24,13 @@ text=Text(frameup,width=60,height=30,bg='coral',fg='black')
 text.pack(fill=X)
 
 
-hitbutton=Button(framedown,text="Hit")
+hitbutton=Button(framedown,text="Hit",  activebackground="green")
 hitbutton.pack(side=LEFT)
 
-staybutton= Button(framedown,text="Stay")
+staybutton= Button(framedown,text="Stay",  activebackground="green")
 staybutton.pack(side=LEFT)
 
-replaybutton=Button(framedown,text='Replay')
+replaybutton=Button(framedown,text='Replay',  activebackground="green")
 replaybutton.pack(side=LEFT)
 
 
