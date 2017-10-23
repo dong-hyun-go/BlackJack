@@ -89,7 +89,7 @@ def hit(event):
 			action()
 
 def replay(event):
-	os.execv(__file__,sys.argv)
+	main()
 
 
 def action():
@@ -170,8 +170,8 @@ def main():
 
 	action()
 
-main()
-
+if __name__ == '__main__':
+	main()
 
 staybutton.bind("<Button-1>",stay)
 hitbutton.bind("<Button-1>",hit)
